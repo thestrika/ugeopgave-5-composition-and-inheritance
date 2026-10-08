@@ -14,7 +14,21 @@ public class Building {
     }
 
     public int getTotalLampCount(){
-        
+        int sum = 0;
+
+        for(Room room : rooms){
+            sum += room.getLampCount();
+        }
+        return sum;
+    }
+
+    public int getTotalWatt(){
+        int wattSum = 0;
+
+        for(Room room : rooms){
+            wattSum += room.getTotalWatt();
+        }
+        return wattSum;
     }
 
 

@@ -43,7 +43,7 @@ public class Room {
     }
 
     public void printRoom(){
-        System.out.println("Lamp count: " + getLampCount() + " | Total watt: " + getTotalWatt() + " | Total area: " + getTotalWindowArea());
+        System.out.println("Lamp count: " + getLampCount() + " | Total watt: " + getTotalWatt() + " | Total window area: " + getTotalWindowArea());
     }
 
 
