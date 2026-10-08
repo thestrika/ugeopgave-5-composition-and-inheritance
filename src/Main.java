@@ -72,6 +72,21 @@ public class Main {
 
 
 
+
+
+
+        //Opgave 3
+        // Komposition: Et eksempel er Band som has-a ArrayList<Song> og også ArrayList<Venue>
+        //Band has-a Song
+        //Band has-a Venue
+
+        // Nedarvning: Jeg tror umiddelbart ikke der er nogle eksempler på is-a relationer i min SP1
+        // Band, Song og Venue har allesammen forskellige formål og er ikke ens på ret mange måder, så som det er ligenu-
+        // giver det ikke mening med en superklasse.
+
+
+
+
     }
 
 }
