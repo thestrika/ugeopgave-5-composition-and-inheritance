@@ -15,6 +15,10 @@ public abstract class Animal {
         return energy;
     }
 
+    public void loseEnergy(int energy){
+        this.energy -= energy;
+    }
+
     public boolean isActive(){
         return energy > 0;
     }

@@ -3,8 +3,10 @@ public class Lion extends Animal{
         super(name, energy);
     }
 
+
+    @Override
     public int attack(){
-        return 50;
+        return 10;
     }
 
 }

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args){
@@ -40,6 +42,33 @@ public class Main {
 
 
         //Opgave 2
+        Lion lion = new Lion("Lion", 60);
+        Wolf wolf = new Wolf("Wolf", 40);
+        Rabbit rabbit = new Rabbit("Rabbit", 120);
+
+        ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(lion);
+        animals.add(wolf);
+        animals.add(rabbit);
+
+        Contest game1 = new Contest(wolf, rabbit);
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+        game1.playRound();
+
 
 
 
